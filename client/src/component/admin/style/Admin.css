@@ -1,0 +1,241 @@
+/* Admin.css */
+.container {
+  max-width: 1534px!important;
+}
+
+.admin-page {
+  display: flex;
+  height: 84vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f6f5f5;
+  color: #000;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar-nav button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.sidebar-nav button:hover {
+  color: #ff0055;
+  background: #ffe5ee;
+  cursor: pointer;
+}
+
+.sidebar-nav button svg {
+  margin-right: 10px;
+}
+
+.logout-button {
+  margin-top: auto;
+}
+
+.admin-content {
+  width: calc(100% - 200px); /* Adjust the width based on the sidebar's width */
+  background: #fff;
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+/* User Table Styles */
+.admin-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-content th,
+.admin-content td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-content th {
+  background: #f6f6f6;
+  font-weight: bold;
+}
+
+.admin-content tbody tr:hover {
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.admin-content__title, .admin-content__link{
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.admin-content__link:hover {
+  color: rgb(22, 135, 201);
+  cursor: pointer;
+}
+
+.admin-content__header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* CreateUserForm.css */
+
+.create-user-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.create-user-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create-user-form input[type="text"],
+.create-user-form input[type="password"],
+.create-user-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.create-user-form button {
+  padding: 10px 20px;
+  background-color: #ff0055;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-user-form button:hover {
+  background-color: #d4004e;
+}
+
+.create-user-title {
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.neymar {
+  width: 5px;
+}
+
+.action-button__section {
+  padding-top: 10px;
+  display: flex;
+  gap:10px;
+}
+
+.users-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.admin-content__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.users-container__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.action-button__text {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ffe5ee;
+  border-radius: 4px;
+  background-color: #ffe5ee;
+  transition: color 0.3s;
+}
+
+.action-button__text:hover {
+  color: #ff0055;
+  cursor: pointer;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  background-color: #ffe5ee;
+  color:#ff0055 ;
+}
+
+.action-button {
+  background-color: #ffe5ee;
+  color:#ff0055 ;
+}
+
+.action-button:hover {
+  background-color: #ffbdd3;
+}
+
+.action-button--1 {
+  background-color: #ffe5ee;
+}
+
+.books-container__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.select-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.select-input::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.select-input option[selected] {
+  background-color: #f1f1f1;
+}
+
+.genderPadding {
+  padding-bottom: 10px;
+}
