@@ -26,7 +26,7 @@ Instalimi
 
 Klononi repositorin:
 
-git clone https://github.com/yllberisha/ssh-Online-Library-System.git
+git clone https://github.com/yllberisha/Fullstack-EBook-Store-MERN-Application
 Navigoni në direktorinë e projektit:
 
 cd ssh-Online-Library-System
@@ -57,7 +57,12 @@ Startoni serverin dhe serverin e zhvillimit të klientit (frontend):
 Në direktorinë server, ekzekutoni: npm start
 Në direktorinë client, ekzekutoni: npm start
 
+
 Hapni shfletuesin tuaj web dhe vizitoni http://localhost:3000 për të hyrë në Aplikacionin e Katalogut të Librave Online.
 
 Kontributi
 Kontributet janë të mirëpritura! Nëse zbuloni ndonjë problem ose keni sugjerime për përmirësim, ju lutemi krijoni një problem të ri ose paraqisni një kërkesë për të nxjerrë ndryshime (pull request).
+
+
+
+(Note this was a uni project, I worked mostly on the backend side, the full commits history can be found at https://github.com/yllberishastudent/ssh-Online-Library-System )
